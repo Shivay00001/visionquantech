@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   Brain, Cpu, Globe, Zap, Shield, Users, Menu, X, Mail, MapPin, 
-  Linkedin, Twitter, WifiOff, Activity, Layers, Rocket, CheckCircle, 
+  Globe2, AtSign, WifiOff, Activity, Layers, Rocket, CheckCircle, 
   AlertCircle, Loader2, ArrowRight, Sparkles, Smartphone, Monitor, 
   Palette, MessageSquare, Leaf, Database, Satellite, Dna, Lock, 
   Sun, Clock, Recycle, Box, BookOpen, Briefcase, Home, Code, 
@@ -740,8 +740,8 @@ const App = () => {
           <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-slate-600 text-xs">Global Enforcement Active. Violation Penalty: ₹10 Crore.</p>
             <div className="flex gap-4">
-              <Linkedin className="w-5 h-5 text-slate-600 hover:text-white transition-colors cursor-pointer" />
-              <Twitter className="w-5 h-5 text-slate-600 hover:text-white transition-colors cursor-pointer" />
+              <Globe2 className="w-5 h-5 text-slate-600 hover:text-white transition-colors cursor-pointer" />
+              <AtSign className="w-5 h-5 text-slate-600 hover:text-white transition-colors cursor-pointer" />
             </div>
           </div>
         </div>
